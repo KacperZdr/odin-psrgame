@@ -1,0 +1,26 @@
+body {
+  background-color: rgb(92, 30, 133);
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.gamebox {
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scoreBoard {
+  text-align: center;
+  padding: 40px;
+}

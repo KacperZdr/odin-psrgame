@@ -47,8 +47,8 @@ function playRound(humanChoice, computerChoice) {
 
   if (humanScore === 5 || computerScore === 5) {
     console.log("Game is Over!");
-    score.textContent = " o ";
-    gameChoices.textContent = " o ";
+    score.textContent = "  ";
+    gameChoices.textContent = "  ";
     result.textContent = "Game is Over!";
     humanScore = 0;
     computerScore = 0;
